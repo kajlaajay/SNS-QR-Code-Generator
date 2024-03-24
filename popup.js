@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
     function generateQRCode(url, logoFile) {
         const qrCodeCanvas = document.createElement("canvas");
-        const qrCodeSize = 128;
+        const qrCodeSize = 256;
       
         qrCodeCanvas.width = qrCodeSize;
         qrCodeCanvas.height = qrCodeSize;
