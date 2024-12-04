@@ -9,10 +9,16 @@
       width: 300px;
       padding: 10px;
     }
-    h1 {
-      font-size: 18px;
+    .h1 {
+      font-size: 26px !important;
       margin-top: 0;
     }
+
+    .h4 {
+      font-size: 16px !important;
+      margin-top: 0;
+    }
+
     input[type="text"], input[type="file"] {
       width: 100%;
       margin-bottom: 10px;
@@ -30,7 +36,7 @@
   </style>
 </head>
 <body>
-  <p class="h3 mb-4">QR Code Generator</p>
+  <h4 class="h4 mb-3"><b>Simple & Free QR Code Generator</b></h4>
   <input type="text" id="url-input" class="form-control" placeholder="Enter URL">
   <input type="file" id="logo-input" class="form-control hide">
   <button id="generate-btn" class="btn btn-primary btn-sm">Generate QR Code</button>
